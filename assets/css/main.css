@@ -1,0 +1,25 @@
+.logo {
+  max-width: 400px;
+  height: auto;
+}
+.star {
+  fill: black;
+}
+
+.logo:hover > .lines {
+  filter: blur(0.4px);
+}
+.logo:hover > .star {
+  fill: palevioletred;
+}
+
+.logo:hover > .banner {
+  filter: drop-shadow(1px 1px 1px palevioletred);
+}
+.logo:hover > .text {
+  filter: drop-shadow(0.5px 0.2px 0.2px palevioletred);
+}
+main {
+  display: grid;
+  place-items: center;
+}
